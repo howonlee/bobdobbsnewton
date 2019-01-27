@@ -10,6 +10,10 @@ if __name__ == "__main__":
 
     This is a test of the optimization methods, so apologies for
     not having actual data
+
+    Note: if you're going to use this with real data,
+    you're going to have to use a regularization.
+    The numerics are definitely not happy fun times.
     """
     xs = npr.randn(100, 100)
     ys = npr.randn(100, 100)
